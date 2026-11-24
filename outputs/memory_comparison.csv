@@ -1,0 +1,4 @@
+Algorithm,Page Hits,Page Faults,Hit Ratio (%),Fault Ratio (%)
+FIFO,3,10,23.08,76.92
+LRU,4,9,30.77,69.23
+OPTIMAL,6,7,46.15,53.85

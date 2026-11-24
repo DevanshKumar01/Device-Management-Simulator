@@ -1,0 +1,29 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.16, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Devu\OneDrive\Desktop\Device Management Simulator\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Devu\OneDrive\Desktop\Device Management Simulator
+plugins: anyio-4.16.0
+collecting ... collected 20 items
+
+tests/test_simulator.py::test_device_allocation PASSED                   [  5%]
+tests/test_simulator.py::test_device_queue PASSED                        [ 10%]
+tests/test_simulator.py::test_reallocation PASSED                        [ 15%]
+tests/test_simulator.py::test_priority PASSED                            [ 20%]
+tests/test_simulator.py::test_shared_device PASSED                       [ 25%]
+tests/test_simulator.py::test_invalid_device PASSED                      [ 30%]
+tests/test_simulator.py::test_empty_process PASSED                       [ 35%]
+tests/test_simulator.py::test_metrics PASSED                             [ 40%]
+tests/test_simulator.py::test_logs PASSED                                [ 45%]
+tests/test_simulator.py::test_cpu[fcfs-4.33] PASSED                      [ 50%]
+tests/test_simulator.py::test_cpu[sjf-2.33] PASSED                       [ 55%]
+tests/test_simulator.py::test_cpu[round_robin-5.0] PASSED                [ 60%]
+tests/test_simulator.py::test_memory[FIFO-10] PASSED                     [ 65%]
+tests/test_simulator.py::test_memory[LRU-9] PASSED                       [ 70%]
+tests/test_simulator.py::test_memory[OPTIMAL-7] PASSED                   [ 75%]
+tests/test_simulator.py::test_disk PASSED                                [ 80%]
+tests/test_simulator.py::test_disk_boundary PASSED                       [ 85%]
+tests/test_simulator.py::test_safe_state PASSED                          [ 90%]
+tests/test_simulator.py::test_unsafe_state PASSED                        [ 95%]
+tests/test_simulator.py::test_invalid_allocation PASSED                  [100%]
+
+============================= 20 passed in 0.09s ==============================

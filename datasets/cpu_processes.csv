@@ -1,0 +1,6 @@
+pid,arrival,burst
+P1,0,5
+P2,0,3
+P3,0,2
+P4,2,6
+P5,4,4

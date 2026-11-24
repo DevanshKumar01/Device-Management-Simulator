@@ -1,0 +1,4 @@
+Algorithm,Average Waiting Time,Average Turnaround Time
+FCFS,6.6,10.6
+SJF,4.8,8.8
+Round Robin,9.4,13.4
